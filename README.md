@@ -7,4 +7,5 @@ To run the program without a JRE, download this repository from this link: https
 Other notes: Source files with the code can be found in the subfolders inside the src folder. To properly read the source code, an IDE may be required. While downloading from the drive link, multiple warnings may be given as a file from the wider internet is being downloaded. This is just a simple GUI program and doesnt have any risks associated.
 
 Authour: Ojas Pednekar
+
 Date of completion: 31/01/2022
