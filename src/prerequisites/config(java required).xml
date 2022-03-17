@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>I:\Coding\Java Coding\Self_Study\Physics Engine 1.2\Blue Corsair.jar</jar>
+  <outfile>I:\Coding\Java Coding\Self_Study\Physics Engine 1.2\Blue Corsair Executable.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>I:\Coding\Java Coding\Self_Study\Physics Engine 1.2\src\prerequisites\Icon.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJdk</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <opt>--module-path &quot;src\prerequisites\JavaFX\lib&quot; --add-modules javafx.controls,javafx.fxml</opt>
+  </jre>
+</launch4jConfig>
