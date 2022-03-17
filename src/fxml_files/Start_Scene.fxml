@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_controllers.Start_Scene">
+   <children>
+      <Label layoutX="172.0" layoutY="121.0" prefHeight="44.0" prefWidth="261.0" text="Welcome, my Commander!">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="174.0" prefHeight="146.0" prefWidth="478.0" text="Press the arrows to move me, your loyal square anywhere on the map. If I touch the yellow square, I advance to the next world, but If you make me go into the lava, I will be punished by being banished to the previous world" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="242.0" layoutY="328.0" mnemonicParsing="false" onAction="#start" prefHeight="31.0" prefWidth="121.0" text="Start Game &gt;">
+         <font>
+            <Font name="Comic Sans MS Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="193.0" layoutY="38.0" text="Blue Corsair">
+         <font>
+            <Font name="Old English Text MT" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
