@@ -1,0 +1,5 @@
+Level 1: easy
+Level 2: bounce against the wall of the frame beside the choke point to get on top.
+Level 3: repeatedly bounce against the wall, while going up.
+Level 4: press the left button 2-3 times, go up to reach at the topmost line.
+Level 5: repeatedly press the up button while going to one side, then maneuver carefully.

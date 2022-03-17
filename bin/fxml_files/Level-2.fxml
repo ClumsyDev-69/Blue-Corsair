@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_controllers.Level_2">
+   <children>
+      <Rectangle fx:id="square" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="276.0" layoutY="296.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle fx:id="target" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="17.0" layoutX="293.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Line fx:id="l1" endX="30.0" layoutX="301.0" layoutY="366.0" startX="-30.0" />
+      <Line fx:id="lava" endX="309.33331298828125" endY="-3.0517578125E-5" fill="RED" layoutX="299.0" layoutY="400.0" startX="-307.3737487792969" startY="-3.0517578125E-5" stroke="RED" strokeWidth="10.0" />
+      <Line fx:id="l2" endX="30.0" layoutX="424.0" layoutY="199.0" startX="-30.0" />
+      <Line fx:id="l3" endX="30.0" layoutX="169.0" layoutY="200.0" startX="-30.0" />
+      <Line fx:id="l4" endX="30.0" layoutX="104.0" layoutY="110.0" startX="-30.0" />
+      <Line fx:id="l5" endX="30.0" layoutX="505.0" layoutY="110.0" startX="-30.0" />
+      <Line fx:id="l6" endX="30.0" layoutX="200.0" layoutY="77.0" startX="-30.0" />
+      <Line fx:id="l7" endX="30.0" layoutX="394.0" layoutY="78.0" startX="-30.0" />
+      <Line fx:id="l8" endX="30.0" layoutX="302.0" layoutY="51.0" startX="-30.0" />
+   </children>
+</AnchorPane>

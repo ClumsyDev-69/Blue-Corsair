@@ -1,0 +1,24 @@
+README file:
+Blue Corsair: A simple game to chip away at spare time... At the start, everything feels impossible, esecially the later levels, but everything is possible.  Be assured, there is a way to complete the game.
+
+How to Launch Application: Double-Click on the Blue Corsair.exe file present in this folder. This game is made for windows only, and needs to be opened through the .jar file for cross-platform working.
+
+Other notes: Source files with the code can be found in the subfolders inside the src folder. Source tree given below. To properly read the source code, an IDE may be required. While downloading from the drive, multiple warnings may be given as a file from the wider internet is being downloaded. This is just a simple GUI program and doesnt have any risks associated.
+
+Authour: Ojas Pednekar
+Date of completion: 31/01/2022
+
+Source Tree:
+
+src
+    game_physics (contains essential elements of the game on which it runs)
+	Collision.java (tests for collision of user square against game elements)
+	Level.java (superclass for all levels. Takes care of FX related threading and essentials of the program)
+    fxml_files (contains the .fxml files for all the different scenes in the game)
+	Start_Scene (Starting scene)
+	Level_x (from Level_1 to Level_5. Contains the scenes foor all levels provided)
+	Game Completed (End scene)
+    fxml_controllers (controllers for all the .fxml files in fxml_files)
+	Corresponding controllers to the fxml files. Contains code on how the above scenes will work.
+    preequisites (contains the prerequisites for the program to run)
+	miscallaneous prerequisites. Not directly involved with game functioning, mainsly aesthetic.

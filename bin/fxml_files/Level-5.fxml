@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_controllers.Level_5">
+   <children>
+      <Line fx:id="l1" endX="10.0" layoutX="300.0" layoutY="112.0" startX="-10.0" />
+      <Rectangle fx:id="square" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="50.0" layoutX="275.0" layoutY="60.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Line fx:id="l2" endX="100.0" layoutX="300.0" layoutY="55.0" startX="-100.0" />
+      <Line fx:id="lava1" endX="110.0" layoutX="300.0" layoutY="123.0" startX="-110.0" stroke="RED" strokeWidth="5.0" />
+      <Line fx:id="l3" endX="50.0" layoutX="148.0" layoutY="112.0" startX="-50.0" />
+      <Line fx:id="l4" endX="50.0" layoutX="451.0" layoutY="112.0" startX="-50.0" />
+      <Line fx:id="l5" endX="100.0" layoutX="300.0" layoutY="332.0" startX="-100.0" />
+      <Rectangle fx:id="target" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="20.0" layoutX="290.0" layoutY="312.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+      <Line fx:id="lava2" endX="309.0" layoutX="300.0" layoutY="400.0" startX="-309.3333435058594" stroke="RED" strokeWidth="10.0" />
+   </children>
+</AnchorPane>
